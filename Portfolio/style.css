@@ -50,8 +50,9 @@
   background-color: none;
 }
  
+/* My Work Section Constructed using CSS Grid */
 .grid-container-header{
-  display: inline-grid;
+  display: flex;
   grid-template-columns: 50% 50%;
   align-items: center;
   align-content: center;
@@ -91,7 +92,7 @@
  }
 
 .welcome p {
-  font-family: 'Karla', sans-serif;;
+  font-family: 'Karla', sans-serif;
   color:#565452;
   font-size:18px;
   line-height: 26px;
@@ -134,6 +135,50 @@
     padding-left: 0px;
   }
 
+/* My Work Section Constructed using Flex */
+.skills-head h2{
+  font-family: 'Fraunces', serif;
+  color:#565452;
+  font-size:42px;
+  font-weight:bold;
+  line-height:45px;
+  letter-spacing: normal;  
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+}
+
+.MySkills {
+	justify-content: space-between;
+	flex-wrap: wrap;
+  margin-top: 0px ;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  margin-right: 300px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color:#565452;
+}
+
+.skill-box {
+	width: 32%;
+	margin-bottom: 5%;
+  margin-top: 0.5%;
+}
+
+.skillsWrap {
+	display: flex;
+}
+
+
   .bottom h1{
     font-family: 'Fraunces', serif;
     color:#565452;
@@ -156,7 +201,7 @@
     line-height:39px;
     letter-spacing: normal;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 70px;
     padding-right: 0px;
     padding-bottom: 5px;
     padding-left: 0px;
